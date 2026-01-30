@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="50" type="long" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="CppFormatterOtherPage" type="string" />
+    <option name="/Default/Housekeeping/RefactoringsMru/RenameRefactoring/DoRenameType/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05f58194-2325-4e44-baa9-2aedd6980d26" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camera/Camera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camera/Camera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figures/Triangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figures/Triangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParserOBJ/ParserOBJ.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParserOBJ/ParserOBJ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renderer/Renderer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Renderer/Renderer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/World/World.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/World/World.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.clang-format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.clang-tidy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/ISSUE_TEMPLATE/bug_report.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/ISSUE_TEMPLATE/feature_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/pull_request_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.github/workflows/release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/CompilerWarnings.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Config.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Format.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Macros.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Mesa3D.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindDRM.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindEGL.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindFLAC.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindFreetype.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindGBM.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindGLES.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindUDev.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Modules/FindVorbis.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/SFMLConfig.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/cmake/Tidy.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/doxyfile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/doxygen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/header.html.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/mainpage.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/doc/searchOverrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/X11/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/X11/X11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/assets/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/assets/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/jni/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/jni/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/drawable-hdpi/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/drawable-ldpi/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/drawable-mdpi/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/drawable-xhdpi/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/drawable-xxhdpi/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/android/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/asset_licenses.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/assets/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/assets/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/assets/info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/CocoaAppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/CocoaAppDelegate.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/NSString+stdstring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/NSString+stdstring.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/Cocoa-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/Credits.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/cocoa/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/event_handling/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/event_handling/EventHandling.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/event_handling/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/ftp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/ftp/Ftp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/include/gl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/Island.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/resources/terrain.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/resources/terrain.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/island/stb_perlin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/joystick/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/joystick/Joystick.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/joystick/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/Keyboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/resources/Tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/resources/error_005.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/resources/mouseclick1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/keyboard/resources/mouserelease1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/opengl/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/opengl/OpenGL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/opengl/resources/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/opengl/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/opengl/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/raw_input/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/raw_input/RawInput.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/raw_input/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/Shader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/billboard.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/billboard.geom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/billboard.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/blink.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/blur.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/edge.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/pixelate.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/sfml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/storm.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/text-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/shader/resources/wave.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/Sockets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/TCP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/TCP.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/UDP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sockets/UDP.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/Sound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/resources/ding.flac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/resources/ding.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/resources/doodle_pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound/resources/killdeer.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_capture/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_capture/SoundCapture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_effects/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_effects/SoundEffects.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_effects/resources/doodle_pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_effects/resources/text-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/sound_effects/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/stencil/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/stencil/Stencil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/tennis/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/tennis/Tennis.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/tennis/resources/ball.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/tennis/resources/sfml_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/tennis/resources/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/Client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/Client.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/Server.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/Server.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/voip/VoIP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/Vulkan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/resources/shader.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/resources/shader.frag.spv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/resources/shader.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/resources/shader.vert.spv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/vulkan/vulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/win32/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/win32/Win32.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/win32/resources/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/win32/resources/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/window/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/examples/window/Window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/glad/include/glad/egl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/glad/include/glad/gl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/glad/include/glad/glx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/glad/include/glad/wgl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/mingw/_mingw_dxhelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/mingw/dinput.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/miniaudio/miniaudio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/minimp3/minimp3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/minimp3/minimp3_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/stb_image/stb_image.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/stb_image/stb_image_write.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vk_icd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vk_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vk_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vk_sdk_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_android.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_macos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_mir.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_vi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_wayland.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_win32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_xcb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_xlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/extlibs/headers/vulkan/vulkan_xlib_xrandr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/AudioResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/InputSoundFile.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/Listener.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/Music.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/OutputSoundFile.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/PlaybackDevice.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/Sound.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundBufferRecorder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundChannel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundFileFactory.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundFileFactory.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundFileReader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundFileWriter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundRecorder.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundSource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Audio/SoundStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Config.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/GpuPreference.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/BlendMode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/CircleShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Color.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Color.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/ConvexShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/CoordinateType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Drawable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Font.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Glsl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Glsl.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Glyph.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Image.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/PrimitiveType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Rect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Rect.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/RectangleShape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/RenderStates.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/RenderTarget.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/RenderTexture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/RenderWindow.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Shader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Shape.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Sprite.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/StencilMode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Text.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Texture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Transform.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Transform.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Transformable.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/Vertex.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/VertexArray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/VertexBuffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Graphics/View.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Main.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/Ftp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/Http.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/IpAddress.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/Packet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/Socket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/SocketHandle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/SocketSelector.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/TcpListener.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/TcpSocket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Network/UdpSocket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/OpenGL.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Angle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Angle.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Clock.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Err.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Exception.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/FileInputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/InputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/MemoryInputStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/NativeActivity.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Sleep.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/String.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/String.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/SuspendAwareClock.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Time.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Time.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Utf.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Utf.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Vector2.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Vector2.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Vector3.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/System/Vector3.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Clipboard.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Context.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/ContextSettings.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Cursor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Event.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Event.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Export.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/GlResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Joystick.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Keyboard.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Mouse.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Sensor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Touch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/VideoMode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Vulkan.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/Window.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/WindowBase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/WindowBase.inl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/WindowEnums.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/include/SFML/Window/WindowHandle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/AudioDevice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/AudioDevice.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/AudioResource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/Dependencies.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/InputSoundFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/Listener.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/Miniaudio.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/MiniaudioUtils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/MiniaudioUtils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/Music.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/OutputSoundFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/PlaybackDevice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/Sound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundBuffer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundBufferRecorder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderFlac.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderFlac.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderMp3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderMp3.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderOgg.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderOgg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderWav.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileReaderWav.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterFlac.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterFlac.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterOgg.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterOgg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterWav.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundFileWriterWav.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundRecorder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundSource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Audio/SoundStream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/BlendMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/CircleShape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/ConvexShape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Dependencies.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Font.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/GLCheck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/GLCheck.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/GLExtensions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/GLExtensions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/GLExtensions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Glsl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Image.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RectangleShape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderStates.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTarget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTexture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTextureImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTextureImplDefault.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTextureImplDefault.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTextureImplFBO.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderTextureImplFBO.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/RenderWindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Shader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Shape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Sprite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/StencilMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Text.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Texture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/TextureSaver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/TextureSaver.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Transform.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/Transformable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/VertexArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/VertexBuffer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Graphics/View.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Main/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Main/MainAndroid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Main/MainWin32.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Main/MainiOS.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Ftp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Http.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/IpAddress.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Packet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Socket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/SocketImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/SocketSelector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/TcpListener.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/TcpSocket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/UdpSocket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Unix/SocketImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Network/Win32/SocketImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/PCH.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/Activity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/Activity.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/NativeActivity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/ResourceStream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/ResourceStream.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Android/SuspendAwareClock.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Clock.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Dependencies.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/EnumArray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Err.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/FileInputStream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/MemoryInputStream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Sleep.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Unix/SleepImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Vector2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Vector3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Win32/SleepImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Win32/SleepImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/System/Win32/WindowsHeader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/ClipboardImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/CursorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/InputImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/SensorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/VideoModeImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/WindowImplAndroid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Android/WindowImplAndroid.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Clipboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Context.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Cursor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/ClipboardImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/CursorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/DRMContext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/DRMContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/InputImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/VideoModeImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/WindowImplDRM.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/DRM/WindowImplDRM.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Dependencies.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/EGLCheck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/EGLCheck.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/EglContext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/EglContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/FreeBSD/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/FreeBSD/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/GlContext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/GlContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/GlResource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/InputImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Joystick.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/JoystickManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/JoystickManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Keyboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Mouse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/NetBSD/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/NetBSD/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/OpenBSD/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/OpenBSD/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Sensor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/SensorManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/SensorManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Touch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/ClipboardImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/CursorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/Display.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/Display.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/GlxContext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/GlxContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/InputImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeySymToKeyMapping.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeySymToKeyMapping.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeySymToUnicodeMapping.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeySymToUnicodeMapping.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeyboardImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/KeyboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/SensorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/Utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/VideoModeImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/VulkanImplX11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/WindowImplX11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Unix/WindowImplX11.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/VideoMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/VideoModeImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Vulkan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/VulkanImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/ClipboardImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/CursorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/InputImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/SensorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/Utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/VideoModeImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/VulkanImplWin32.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/WglContext.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/WglContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/WindowImplWin32.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Win32/WindowImplWin32.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/Window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/WindowBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/WindowImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/WindowImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/ClipboardImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/CursorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/EaglContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/EaglContext.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/InputImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/JoystickImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/ObjCType.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFAppDelegate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFAppDelegate.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFMain.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFMain.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFView.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFView.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFViewController.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SFViewController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/SensorImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/VideoModeImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/WindowImplUIKit.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/iOS/WindowImplUIKit.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/AutoreleasePoolWrapper.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/AutoreleasePoolWrapper.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/ClipboardImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/ClipboardImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/CursorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/CursorImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/HIDInputManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/HIDInputManager.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/HIDJoystickManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/HIDJoystickManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/InputImpl.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/JoystickImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/JoystickImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/NSImage+raw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/NSImage+raw.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFApplication.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFApplication.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFApplicationDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFApplicationDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFContext.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFContext.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFKeyboardModifiersHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFKeyboardModifiersHelper.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView+keyboard.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView+keyboard_priv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView+mouse.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView+mouse_priv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFOpenGLView.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFSilentResponder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFSilentResponder.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFViewController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFWindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFWindow.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFWindowController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SFWindowController.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/Scaling.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SensorImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/SensorImpl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/VideoModeImpl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/WindowImplCocoa.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/WindowImplCocoa.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/WindowImplDelegateProtocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/cg_sf_conversion.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/src/SFML/Window/macOS/cg_sf_conversion.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/AudioResource.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/InputSoundFile.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/Listener.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/Music.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/OutputSoundFile.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/Sound.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundBuffer.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundBufferRecorder.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundFileFactory.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundFileReader.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundFileWriter.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundRecorder.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundSource.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/SoundStream.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/ding.flac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/ding.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/doodle_pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Audio/killdeer.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/BlendMode.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/CircleShape.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Color.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/ConvexShape.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/CoordinateType.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Drawable.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Font.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Glsl.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Glyph.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Image.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Rect.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/RectangleShape.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Render.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/RenderStates.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/RenderTarget.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/RenderTexture.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/RenderWindow.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Shader.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Shape.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Sprite.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/StencilMode.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Text.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Texture.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Transform.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Transformable.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/Vertex.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/VertexArray.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/VertexBuffer.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/View.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/WindowHandleWin32.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/invalid_shader.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/sfml-logo-big.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/sfml-logo-big.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/sfml-logo-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/sfml-logo-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/sfml-logo-big.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/shader.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/shader.geom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/shader.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/tuffy-ń.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/tuffy-.ttf" afterPathEscaped="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/tuffy-🐌.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Graphics/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/Ftp.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/Http.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/IpAddress.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/Packet.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/Socket.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/SocketSelector.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/TcpListener.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/TcpSocket.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Network/UdpSocket.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Angle.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Clock.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Config.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Err.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Exception.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/FileInputStream.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/MemoryInputStream.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Sleep.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/String.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Time.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Utf.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Vector2.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/System/Vector3.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/AudioUtil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/AudioUtil.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/GraphicsUtil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/GraphicsUtil.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/SystemUtil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/SystemUtil.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/WindowUtil.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/TestUtilities/WindowUtil.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Clipboard.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Context.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/ContextSettings.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Cursor.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Event.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/GlResource.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Joystick.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Keyboard.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/VideoMode.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Vulkan.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/Window.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/Window/WindowBase.test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/install/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/test/install/Install.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/flac/PatchFLAC.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/freetype/PatchFreetype.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/nsis/header.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/nsis/sfml.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/nsis/sidebar.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/ogg/PatchOgg.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-all.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-audio.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-graphics.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-network.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-system.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/pkg-config/sfml-window.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/tidy/PatchTidy.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/vorbis/PatchVorbis.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/windows/resource.rc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/ResourcePath.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/ResourcePath.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/TemplateIcon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/TemplateInfo.plist.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/doodle_pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML App.xctemplate/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML Base.xctemplate/TemplateInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML Bundle.xctemplate/TemplateInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/TemplateIcon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/TemplateInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/doodle_pop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML CLT.xctemplate/tuffy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML Compiler.xctemplate/TemplateInfo.plist.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/SFML/SFML Linker.xctemplate/TemplateInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extern/SFML-3.0.2/tools/xcode/templates/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/penis.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3dRenderer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3dRenderer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Master-of-clowns&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Master-of-clowns/3D_Renderer.git",
+    "accountId": "49237260-2f9b-46df-a1e3-f809d6b2234c"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="3.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38w2V60FM8HbyUfpMidgqa79VbJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "CMake Application.3dRenderer.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "Merging review",
+    "last_opened_file_path": "C:/Users/s24b_/CLionProjects/3dRenderer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/s24b_/CLionProjects/3dRenderer/main.cpp",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05f58194-2325-4e44-baa9-2aedd6980d26" name="Changes" comment="" />
+      <created>1769696333440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769696333440</updated>
+      <workItem from="1769696335772" duration="15634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

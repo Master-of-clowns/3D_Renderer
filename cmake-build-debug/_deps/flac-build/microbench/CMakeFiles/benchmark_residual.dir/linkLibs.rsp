@@ -1,1 +1,0 @@
- "../../../extern/SFML-3.0.2/lib/libFLACd.a" -lm "../../../extern/SFML-3.0.2/lib/liboggd.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
