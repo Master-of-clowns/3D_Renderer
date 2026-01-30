@@ -8,11 +8,11 @@
 
 std::vector<Triangle> ParserOBJ::Parse(const std::string& filename){
 	std::vector<Triangle> triangles;
-	std::vector<Eigen::Vector3d> vertices;
+	std::vector<Vector3d> vertices;
 
 	std::ifstream file(filename);
 	if (!file.is_open()){
-		std::cerr << "Error: Could not open file " << filename << std::endl;
+		std::cerr << "Could not open file " << filename << std::endl;
 		return triangles;
 	}
 
@@ -45,29 +45,25 @@ std::vector<Triangle> ParserOBJ::Parse(const std::string& filename){
 	}
 
 	file.close();
-
-	std::cout << "Loaded " << triangles.size() << " triangles from " << filename << std::endl;
-	std::cout << "Vertices: " << vertices.size() << std::endl;
-
 	return triangles;
 }
 
-void ParserOBJ::ParseVertex(const std::string& line, std::vector<Eigen::Vector3d>& vertices){
+void ParserOBJ::ParseVertex(const std::string& line, std::vector<Vector3d>& vertices){
 	std::istringstream iss(line);
 	std::string prefix;
 	double x, y, z;
 
 	iss >> prefix >> x >> y >> z;
-	vertices.push_back(Eigen::Vector3d(x, y, z));
+	vertices.push_back(Vector3d(x, y, z));
 }
 
 void ParserOBJ::ParseFace(const std::string& line,
-						const std::vector<Eigen::Vector3d>& vertices,
+						const std::vector<Vector3d>& vertices,
 						std::vector<Triangle>& triangles){
 	std::vector<std::string> parts = Split(line, ' ');
 
 	if (parts.size() < 4){
-		std::cerr << "Warning: Face with less than 3 vertices" << std::endl;
+		std::cerr << "Face with less than 3 vertices" << std::endl;
 		return;
 	}
 
@@ -86,7 +82,7 @@ void ParserOBJ::ParseFace(const std::string& line,
 				}
 			}
 			catch (...){
-				std::cerr << "Warning: Could not parse vertex index: " << parts[i] << std::endl;
+				std::cerr << "Could not parse vertex index: " << parts[i] << std::endl;
 			}
 		}
 	}
@@ -106,17 +102,17 @@ void ParserOBJ::ParseFace(const std::string& line,
 					vertices[idx3]
 				));
 			} else{
-				std::cerr << "Warning: Invalid vertex index in face" << std::endl;
+				std::cerr << "Invalid vertex index in face" << std::endl;
 			}
 		}
 	}
 }
 
-Eigen::Vector3d ParserOBJ::ParseVector3(const std::string& str){
+Vector3d ParserOBJ::ParseVector3(const std::string& str){
 	std::istringstream iss(str);
 	double x, y, z;
 	iss >> x >> y >> z;
-	return Eigen::Vector3d(x, y, z);
+	return Vector3d(x, y, z);
 }
 
 std::vector<std::string> ParserOBJ::Split(const std::string& s, char delimiter){

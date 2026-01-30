@@ -115,3 +115,6 @@
 4521	7416	7914707996636898	3dRenderer.exe	ef154e47eca183ce
 82	4397	7914708201990992	CMakeFiles/3dRenderer.dir/Camera/Camera.cpp.obj	e62659ddc19ca496
 4398	7308	7914708245143311	3dRenderer.exe	ef154e47eca183ce
+94	3730	7914827325594700	CMakeFiles/3dRenderer.dir/ParserOBJ/ParserOBJ.cpp.obj	bbb297fd12e2d560
+98	4951	7914827325644987	CMakeFiles/3dRenderer.dir/Renderer/Renderer.cpp.obj	38b16ee64a2cf00
+4951	8262	7914827374171180	3dRenderer.exe	ef154e47eca183ce
