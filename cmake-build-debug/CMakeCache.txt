@@ -23,12 +23,6 @@
 //Value Computed by CMake
 3dRenderer_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer
 
-//Build the Unicode data generator tool
-BUILD_GENERATOR:BOOL=OFF
-
-//Build the testing tree.
-BUILD_TESTING:BOOL=ON
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.2/bin/mingw/bin/addr2line.exe
 
@@ -117,9 +111,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
-
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/pkgRedirects
 
@@ -181,7 +172,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.2/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -226,16 +217,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=3dRenderer
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=3.1.0
+CMAKE_PROJECT_VERSION:STATIC=3.0.2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -323,13 +314,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to the coverage program that CTest uses for performing coverage
-// inspection
-COVERAGE_COMMAND:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.2/bin/mingw/bin/gcov.exe
-
-//Extra command line flags to pass to the coverage tool
-COVERAGE_EXTRA_FLAGS:STRING=-l
-
 //Enable to build 7-Zip packages
 CPACK_BINARY_7Z:BOOL=OFF
 
@@ -357,30 +341,9 @@ CPACK_SOURCE_7Z:BOOL=ON
 //Enable to build ZIP source packages
 CPACK_SOURCE_ZIP:BOOL=ON
 
-//How many times to retry timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_COUNT:STRING=3
-
-//How long to wait between timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_DELAY:STRING=5
-
-//Maximum time allowed before CTest will kill the test.
-DART_TESTING_TIMEOUT:STRING=1500
-
-//Disable package configuration, target export and installation
-DISABLE_PACKAGE_CONFIG_AND_INSTALL:BOOL=OFF
-
 //Set FLAC__BYTES_PER_WORD to 8, for 64-bit machines. For 32-bit
 // machines, turning this off might give a tiny speed improvement
 ENABLE_64_BIT_WORDS:BOOL=ON
-
-//Enable address sanitizer
-ENABLE_ASAN:BOOL=OFF
-
-//Enable code coverage instrumentation (only enabled with BUILD_TESTING)
-ENABLE_COVERAGE:BOOL=OFF
-
-//Enable undefined behavior sanitizer
-ENABLE_UBSAN:BOOL=OFF
 
 //Enable -Werror in all Makefiles
 ENABLE_WERROR:BOOL=OFF
@@ -404,20 +367,8 @@ FETCHCONTENT_SOURCE_DIR_FLAC:PATH=
 FETCHCONTENT_SOURCE_DIR_FREETYPE:PATH=
 
 //When not empty, overrides where to find pre-populated content
-// for HarfBuzz
-FETCHCONTENT_SOURCE_DIR_HARFBUZZ:PATH=
-
-//When not empty, overrides where to find pre-populated content
-// for MbedTLS
-FETCHCONTENT_SOURCE_DIR_MBEDTLS:PATH=
-
-//When not empty, overrides where to find pre-populated content
 // for ogg
 FETCHCONTENT_SOURCE_DIR_OGG:PATH=
-
-//When not empty, overrides where to find pre-populated content
-// for SheenBidi
-FETCHCONTENT_SOURCE_DIR_SHEENBIDI:PATH=
 
 //When not empty, overrides where to find pre-populated content
 // for vorbis
@@ -432,17 +383,8 @@ FETCHCONTENT_UPDATES_DISCONNECTED_FLAC:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of Freetype
 FETCHCONTENT_UPDATES_DISCONNECTED_FREETYPE:BOOL=OFF
 
-//Enables UPDATE_DISCONNECTED behavior just for population of HarfBuzz
-FETCHCONTENT_UPDATES_DISCONNECTED_HARFBUZZ:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of MbedTLS
-FETCHCONTENT_UPDATES_DISCONNECTED_MBEDTLS:BOOL=OFF
-
 //Enables UPDATE_DISCONNECTED behavior just for population of ogg
 FETCHCONTENT_UPDATES_DISCONNECTED_OGG:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of SheenBidi
-FETCHCONTENT_UPDATES_DISCONNECTED_SHEENBIDI:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of vorbis
 FETCHCONTENT_UPDATES_DISCONNECTED_VORBIS:BOOL=OFF
@@ -459,84 +401,17 @@ FLAC_LIB_DEPENDS:STATIC=general;Ogg::ogg;
 //Value Computed by CMake
 FLAC_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src
 
-//Path to a program.
-GITCOMMAND:FILEPATH=C:/Program Files/Git/cmd/git.exe
-
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
 //Path to a program.
 HAVE_GIT:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
-//Build harfbuzz utils, needs cairo, freetype, and glib properly
-// be installed
-HB_BUILD_UTILS:BOOL=OFF
-
-//Enable cairo interop helpers
-HB_HAVE_CAIRO:BOOL=OFF
-
-//Enable DirectWrite shaper backend on Windows
-HB_HAVE_DIRECTWRITE:BOOL=OFF
-
-//Enable GDI integration helpers on Windows
-HB_HAVE_GDI:BOOL=OFF
-
-//Enable glib unicode functions
-HB_HAVE_GLIB:BOOL=OFF
-
-//Enable GObject Bindings
-HB_HAVE_GOBJECT:BOOL=OFF
-
-//Enable Graphite2 complementary shaper
-HB_HAVE_GRAPHITE2:BOOL=OFF
-
-//Enable icu unicode functions
-HB_HAVE_ICU:BOOL=OFF
-
-//Enable building introspection (.gir/.typelib) files
-HB_HAVE_INTROSPECTION:BOOL=OFF
-
-//Enable Uniscribe shaper backend on Windows
-HB_HAVE_UNISCRIBE:BOOL=OFF
-
 //Install CMake package-config module
 INSTALL_CMAKE_CONFIG_MODULE:BOOL=ON
 
 //Install CMake package configiguration module
 INSTALL_CMAKE_PACKAGE_MODULE:BOOL=ON
-
-//Install Mbed TLS headers.
-INSTALL_MBEDTLS_HEADERS:BOOL=ON
-
-//Explicitly link Mbed TLS library to pthread.
-LINK_WITH_PTHREAD:BOOL=OFF
-
-//Explicitly link Mbed TLS library to trusted_storage.
-LINK_WITH_TRUSTED_STORAGE:BOOL=OFF
-
-//Command to build the project
-MAKECOMMAND:STRING="C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
-
-//Mbed TLS config file (overrides default).
-MBEDTLS_CONFIG_FILE:FILEPATH=
-
-//Mbed TLS user config file (appended to default).
-MBEDTLS_USER_CONFIG_FILE:FILEPATH=
-
-//Path to the memory checking command, used for memory error detection.
-MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
-
-//File that contains suppressions for the memory checker
-MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
-
-//Value Computed by CMake
-Mbed TLS_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/mbedtls-build
-
-//Value Computed by CMake
-Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Mbed TLS_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/mbedtls-src
 
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
@@ -550,11 +425,8 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=C:/msys64/ucrt64/bin/pkg-config.exe
 
-//Build with a single unity source file
-SB_CONFIG_UNITY:BOOL=ON
-
 //Value Computed by CMake
-SFML_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML
+SFML_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML-3.0.2
 
 //ON to build SFML's Audio module.
 SFML_BUILD_AUDIO:BOOL=ON
@@ -594,7 +466,7 @@ SFML_IS_TOP_LEVEL:STATIC=OFF
 SFML_OPENGL_ES:BOOL=0
 
 //Value Computed by CMake
-SFML_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML
+SFML_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML-3.0.2
 
 //ON to use the Mesa 3D graphics library for rendering, OFF to
 // use the system provided library for rendering
@@ -609,27 +481,6 @@ SFML_USE_SYSTEM_DEPS:BOOL=OFF
 
 //Treat compiler warnings as errors
 SFML_WARNINGS_AS_ERRORS:BOOL=OFF
-
-//Name of the computer/site where compile is being run
-SITE:STRING=Hal9000
-
-//Value Computed by CMake
-SheenBidi_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/sheenbidi-build
-
-//Value Computed by CMake
-SheenBidi_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-SheenBidi_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/sheenbidi-src
-
-//Allow unsafe builds. These builds ARE NOT SECURE.
-UNSAFE_BUILD:BOOL=OFF
-
-//Build Mbed TLS shared library.
-USE_SHARED_MBEDTLS_LIBRARY:BOOL=OFF
-
-//Build Mbed TLS static library.
-USE_STATIC_MBEDTLS_LIBRARY:BOOL=ON
 
 //Use any assembly optimization routines
 WITH_ASM:BOOL=ON
@@ -647,15 +498,6 @@ freetype_IS_TOP_LEVEL:STATIC=OFF
 freetype_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/freetype-src
 
 //Value Computed by CMake
-harfbuzz_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/harfbuzz-build
-
-//Value Computed by CMake
-harfbuzz_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-harfbuzz_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/harfbuzz-src
-
-//Value Computed by CMake
 libogg_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-build
 
 //Value Computed by CMake
@@ -663,15 +505,6 @@ libogg_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 libogg_SOURCE_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src
-
-//Dependencies for the target
-mbedcrypto_LIB_DEPENDS:STATIC=general;ws2_32;general;bcrypt;
-
-//Dependencies for the target
-mbedtls_LIB_DEPENDS:STATIC=general;ws2_32;general;bcrypt;general;mbedx509;
-
-//Dependencies for the target
-mbedx509_LIB_DEPENDS:STATIC=general;ws2_32;general;bcrypt;general;mbedcrypto;
 
 //Value Computed by CMake
 vorbis_BINARY_DIR:STATIC=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/vorbis-build
@@ -714,8 +547,6 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 CMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/bin/cpack.exe
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -768,12 +599,10 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Ninja
+CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -819,6 +648,8 @@ CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
 CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
@@ -832,7 +663,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -888,12 +719,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Test COMPILER_SUPPORTS_CXX11
-COMPILER_SUPPORTS_CXX11:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_COMMAND
-COVERAGE_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
-COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_BINARY_7Z
 CPACK_BINARY_7Z-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_BINARY_IFW
@@ -912,16 +737,6 @@ CPACK_BINARY_ZIP-ADVANCED:INTERNAL=1
 CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_SOURCE_ZIP
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
-CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
-CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
-//Test CXX_SUPPORTS_FLAG_BSYMB_FUNCS
-CXX_SUPPORTS_FLAG_BSYMB_FUNCS:INTERNAL=1
-//Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
-C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
-//ADVANCED property for variable: DART_TESTING_TIMEOUT
-DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Have include dinput.h
 DINPUT_H_FOUND:INTERNAL=1
 //Test DODEFINE_EXTENSIONS
@@ -930,8 +745,6 @@ DODEFINE_EXTENSIONS:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][cfound components: OpenGL ][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[C:/msys64/ucrt64/bin/pkg-config.exe][v2.3.0()]
-//Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/s24b_/AppData/Local/Programs/Python/Python313/python.exe][cfound components: Interpreter ][v3.13.7()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Result of CHECK_CPU_ARCH
@@ -940,22 +753,18 @@ FLAC__CPU_X86_64:INTERNAL=1
 FLAC__HAS_NEONINTRIN:INTERNAL=
 //Have include x86intrin.h
 FLAC__HAS_X86INTRIN:INTERNAL=1
-//Redirected by FetchContent
-Freetype_DIR:INTERNAL=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/pkgRedirects
-//ADVANCED property for variable: GITCOMMAND
-GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Test HAVE_ASSOC_MATH
 HAVE_ASSOC_MATH:INTERNAL=1
-//Have function atexit
-HAVE_ATEXIT:INTERNAL=1
 //Test HAVE_BSWAP16
 HAVE_BSWAP16:INTERNAL=1
 //Test HAVE_BSWAP32
 HAVE_BSWAP32:INTERNAL=1
 //Have include byteswap.h
 HAVE_BYTESWAP_H:INTERNAL=
+//Have function clock_gettime
+HAVE_CLOCK_GETTIME:INTERNAL=
 //Have include cpuid.h
 HAVE_CPUID_H:INTERNAL=1
 //Test HAVE_DECL_AFTER_STMT_FLAG
@@ -964,8 +773,6 @@ HAVE_DECL_AFTER_STMT_FLAG:INTERNAL=1
 HAVE_FLAC__CPU_X86_64:INTERNAL=TRUE
 //Have function fseeko
 HAVE_FSEEKO:INTERNAL=1
-//Have function getpagesize
-HAVE_GETPAGESIZE:INTERNAL=1
 //Result of TRY_COMPILE
 HAVE_INT16_SIZE:INTERNAL=TRUE
 //Result of TRY_COMPILE
@@ -976,8 +783,6 @@ HAVE_INT64_SIZE:INTERNAL=TRUE
 HAVE_INTTYPES_H:INTERNAL=1
 //Result of TRY_COMPILE
 HAVE_INT_SIZE:INTERNAL=TRUE
-//Have function isatty
-HAVE_ISATTY:INTERNAL=1
 //Test HAVE_LANGINFO_CODESET
 HAVE_LANGINFO_CODESET:INTERNAL=
 //Have library m
@@ -990,10 +795,6 @@ HAVE_LONG_SIZE:INTERNAL=TRUE
 HAVE_LROUND:INTERNAL=1
 //Test HAVE_MBSTATE
 HAVE_MBSTATE:INTERNAL=1
-//Have function mmap
-HAVE_MMAP:INTERNAL=
-//Have function mprotect
-HAVE_MPROTECT:INTERNAL=1
 //Result of TRY_COMPILE
 HAVE_SHORT_SIZE:INTERNAL=TRUE
 //Test HAVE_STACKREALIGN_FLAG
@@ -1004,10 +805,6 @@ HAVE_STDBOOL_H:INTERNAL=1
 HAVE_STDDEF_H:INTERNAL=1
 //Have include stdint.h
 HAVE_STDINT_H:INTERNAL=1
-//Have function sysconf
-HAVE_SYSCONF:INTERNAL=
-//Have include sys/mman.h
-HAVE_SYS_MMAN_H:INTERNAL=
 //Have include sys/param.h
 HAVE_SYS_PARAM_H:INTERNAL=1
 //Have include sys/types.h
@@ -1016,8 +813,6 @@ HAVE_SYS_TYPES_H:INTERNAL=1
 HAVE_UINT16_SIZE:INTERNAL=TRUE
 //Result of TRY_COMPILE
 HAVE_UINT32_SIZE:INTERNAL=TRUE
-//Have include unistd.h
-HAVE_UNISTD_H:INTERNAL=1
 //Result of TRY_COMPILE
 HAVE_U_INT16_SIZE:INTERNAL=FALSE
 //Result of TRY_COMPILE
@@ -1026,8 +821,6 @@ HAVE_U_INT32_SIZE:INTERNAL=FALSE
 HAVE_WEFFCXX_FLAG:INTERNAL=1
 //Test HAVE_WERROR_FLAG
 HAVE_WERROR_FLAG:INTERNAL=1
-//Redirected by FetchContent
-HarfBuzz_DIR:INTERNAL=C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/pkgRedirects
 //Have include inttypes.h
 INCLUDE_INTTYPES_H:INTERNAL=1
 //Have include stdint.h
@@ -1046,12 +839,6 @@ INT_SIZE:INTERNAL=4
 LONG_LONG_SIZE:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(long)
 LONG_SIZE:INTERNAL=4
-//ADVANCED property for variable: MAKECOMMAND
-MAKECOMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_COMMAND
-MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
-MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
 //ogg has already been built
 OGG_FOUND:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
@@ -1064,8 +851,6 @@ PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(short)
 SHORT_SIZE:INTERNAL=2
-//ADVANCED property for variable: SITE
-SITE-ADVANCED:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(uint16_t)
 UINT16_SIZE:INTERNAL=2
 //CHECK_TYPE_SIZE: sizeof(uint32_t)
@@ -1078,17 +863,4 @@ U_INT32_SIZE:INTERNAL=
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/3dRenderer
-//Compiler reason failure
-_Python3_Compiler_REASON_FAILURE:INTERNAL=
-//Development reason failure
-_Python3_Development_REASON_FAILURE:INTERNAL=
-//Path to a program.
-_Python3_EXECUTABLE:INTERNAL=C:/Users/s24b_/AppData/Local/Programs/Python/Python313/python.exe
-//Path to a program.
-_Python3_EXECUTABLE_DEBUG:INTERNAL=_Python3_EXECUTABLE_DEBUG-NOTFOUND
-//Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;7;64;32;<none>;cp313-win_amd64;;C:\Users\s24b_\AppData\Local\Programs\Python\Python313\Lib;C:\Users\s24b_\AppData\Local\Programs\Python\Python313\Lib;C:\Users\s24b_\AppData\Local\Programs\Python\Python313\Lib\site-packages;C:\Users\s24b_\AppData\Local\Programs\Python\Python313\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=9d37df4c5c16227500478115383d7161
-//NumPy reason failure
-_Python3_NumPy_REASON_FAILURE:INTERNAL=
 

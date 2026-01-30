@@ -57,7 +57,7 @@ set_target_properties(Ogg::ogg PROPERTIES
 set_property(TARGET Ogg::ogg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(Ogg::ogg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML/lib/liboggd.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML-3.0.2/lib/liboggd.a"
   )
 
 # This file does not depend on other imported targets which have

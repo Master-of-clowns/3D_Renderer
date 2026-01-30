@@ -1,0 +1,1 @@
+-IC:/Users/s24b_/CLionProjects/3dRenderer/extern/eigen -I"C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML-3.0.2/include" -I"C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML-3.0.2/src" -isystem "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML-3.0.2/extlibs/headers/glad/include" -isystem "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML-3.0.2/extlibs/headers/vulkan"

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DSB_CONFIG_UNITY -IC:/Users/s24b_/CLionProjects/3dRenderer/extern/eigen -IC:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/sheenbidi-src/Headers -IC:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/sheenbidi-src/Source -g -fdiagnostics-color=always -w -o _deps\\sheenbidi-build\\CMakeFiles\\SheenBidi.dir\\Source\\SheenBidi.c.obj -c C:\\Users\\s24b_\\CLionProjects\\3dRenderer\\cmake-build-debug\\_deps\\sheenbidi-src\\Source\\SheenBidi.c",
-  "file": "C:\\Users\\s24b_\\CLionProjects\\3dRenderer\\cmake-build-debug\\_deps\\sheenbidi-src\\Source\\SheenBidi.c",
-  "output": "_deps\\sheenbidi-build\\CMakeFiles\\SheenBidi.dir\\Source\\SheenBidi.c.obj"
-}
-]

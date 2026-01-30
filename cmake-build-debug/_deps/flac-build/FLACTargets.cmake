@@ -59,7 +59,7 @@ set_target_properties(FLAC::FLAC PROPERTIES
 set_property(TARGET FLAC::FLAC APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(FLAC::FLAC PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;RC"
-  IMPORTED_LOCATION_DEBUG "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML/lib/libFLACd.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/extern/SFML-3.0.2/lib/libFLACd.a"
   )
 
 # Make sure the targets which have been exported in some other

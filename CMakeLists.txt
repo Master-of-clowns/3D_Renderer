@@ -4,7 +4,7 @@ project(3dRenderer)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(extern/eigen)
-add_subdirectory(extern/SFML)
+add_subdirectory(extern/SFML-3.0.2)
 
 add_executable(3dRenderer main.cpp
         Figures/Triangle.h
