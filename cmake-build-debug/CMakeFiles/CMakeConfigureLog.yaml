@@ -452,3 +452,1547 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/JetBrains/CLion 2024.3.2/bin/mingw/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.40
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "extern/SFML/src/SFML/System/CMakeLists.txt:67 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxvxoi"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxvxoi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxvxoi'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c6132
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_c6132.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lxvxoi/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_c6132.dir/src.c.obj -o cmTC_c6132.exe -Wl,--out-implib,libcmTC_c6132.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "extern/SFML/src/SFML/Window/CMakeLists.txt:317 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include dinput.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l4ru3d"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l4ru3d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l4ru3d'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_62ea5
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_62ea5.dir/CheckIncludeFile.cxx.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l4ru3d/CheckIncludeFile.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_62ea5.dir/CheckIncludeFile.cxx.obj -o cmTC_62ea5.exe -Wl,--out-implib,libcmTC_62ea5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "extern/SFML/src/SFML/Window/CMakeLists.txt:342 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test ATOMIC_TEST"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-giz1hl"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-giz1hl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "ATOMIC_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-giz1hl'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_60485
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DATOMIC_TEST  -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_60485.dir/src.cxx.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-giz1hl/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_60485.dir/src.cxx.obj -o cmTC_60485.exe -Wl,--out-implib,libcmTC_60485.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/mbedtls-src/CMakeLists.txt:222 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rl4o9v"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rl4o9v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rl4o9v'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_2944c
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  -std=c99 -fdiagnostics-color=always   -Wformat-signedness -o CMakeFiles/cmTC_2944c.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rl4o9v/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_2944c.dir/src.c.obj -o cmTC_2944c.exe -Wl,--out-implib,libcmTC_2944c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for atexit"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jwsbi7"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jwsbi7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ATEXIT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jwsbi7'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_8af7c
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=atexit -fdiagnostics-color=always -o CMakeFiles/cmTC_8af7c.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jwsbi7/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=atexit  CMakeFiles/cmTC_8af7c.dir/CheckFunctionExists.c.obj -o cmTC_8af7c.exe -Wl,--out-implib,libcmTC_8af7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for mprotect"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gijdl3"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gijdl3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MPROTECT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gijdl3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_bd63c
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=mprotect -fdiagnostics-color=always -o CMakeFiles/cmTC_bd63c.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gijdl3/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=mprotect  CMakeFiles/cmTC_bd63c.dir/CheckFunctionExists.c.obj -o cmTC_bd63c.exe -Wl,--out-implib,libcmTC_bd63c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for sysconf"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwrz63"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwrz63"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYSCONF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwrz63'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_de934
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=sysconf -fdiagnostics-color=always -o CMakeFiles/cmTC_de934.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zwrz63/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=sysconf  CMakeFiles/cmTC_de934.dir/CheckFunctionExists.c.obj -o cmTC_de934.exe -Wl,--out-implib,libcmTC_de934.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_de934.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=sysconf  CMakeFiles/cmTC_de934.dir/CheckFunctionExists.c.obj -o cmTC_de934.exe -Wl,--out-implib,libcmTC_de934.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        C:\\Program Files\\JetBrains\\CLion 2024.3.2\\bin\\mingw\\bin/ld.exe: CMakeFiles/cmTC_de934.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `sysconf'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for getpagesize"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ivht0e"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ivht0e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_GETPAGESIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ivht0e'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_d384d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=getpagesize -fdiagnostics-color=always -o CMakeFiles/cmTC_d384d.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ivht0e/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=getpagesize  CMakeFiles/cmTC_d384d.dir/CheckFunctionExists.c.obj -o cmTC_d384d.exe -Wl,--out-implib,libcmTC_d384d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for mmap"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jvs1d6"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jvs1d6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MMAP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jvs1d6'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_cd279
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=mmap -fdiagnostics-color=always -o CMakeFiles/cmTC_cd279.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jvs1d6/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=mmap  CMakeFiles/cmTC_cd279.dir/CheckFunctionExists.c.obj -o cmTC_cd279.exe -Wl,--out-implib,libcmTC_cd279.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_cd279.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=mmap  CMakeFiles/cmTC_cd279.dir/CheckFunctionExists.c.obj -o cmTC_cd279.exe -Wl,--out-implib,libcmTC_cd279.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        C:\\Program Files\\JetBrains\\CLion 2024.3.2\\bin\\mingw\\bin/ld.exe: CMakeFiles/cmTC_cd279.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `mmap'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:85 (check_function_exists)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:94 (check_funcs)"
+    checks:
+      - "Looking for isatty"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ohpi"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ohpi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ISATTY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ohpi'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_caa02
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=isatty -fdiagnostics-color=always -o CMakeFiles/cmTC_caa02.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-o8ohpi/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=isatty  CMakeFiles/cmTC_caa02.dir/CheckFunctionExists.c.obj -o cmTC_caa02.exe -Wl,--out-implib,libcmTC_caa02.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:95 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wxahnb"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wxahnb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wxahnb'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b6b98
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b6b98.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wxahnb/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_b6b98.dir/CheckIncludeFile.c.obj -o cmTC_b6b98.exe -Wl,--out-implib,libcmTC_b6b98.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:99 (check_include_file)"
+    checks:
+      - "Looking for sys/mman.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_MMAN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f323d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_f323d.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_f323d.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_f323d.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852/CheckIncludeFile.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k06852/CheckIncludeFile.c:1:10: fatal error: sys/mman.h: No such file or directory
+            1 | #include <sys/mman.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:103 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ud4f1k"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ud4f1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ud4f1k'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_1a6c8
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1a6c8.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ud4f1k/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_1a6c8.dir/CheckIncludeFile.c.obj -o cmTC_1a6c8.exe -Wl,--out-implib,libcmTC_1a6c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:552 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXX_SUPPORTS_FLAG_BSYMB_FUNCS"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44jsfq"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44jsfq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CXX_SUPPORTS_FLAG_BSYMB_FUNCS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44jsfq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_1bb25
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DCXX_SUPPORTS_FLAG_BSYMB_FUNCS  -std=gnu++11 -fdiagnostics-color=always   -Bsymbolic-functions -o CMakeFiles/cmTC_1bb25.dir/src.cxx.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-44jsfq/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_1bb25.dir/src.cxx.obj -o cmTC_1bb25.exe -Wl,--out-implib,libcmTC_1bb25.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/harfbuzz-src/CMakeLists.txt:573 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_CXX11"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iypkv4"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iypkv4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fno-rtti -fno-exceptions -fno-threadsafe-statics"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iypkv4'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b73a3
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DCOMPILER_SUPPORTS_CXX11  -fno-rtti -fno-exceptions -fno-threadsafe-statics  -std=gnu++11 -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_b73a3.dir/src.cxx.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iypkv4/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -fno-rtti -fno-exceptions -fno-threadsafe-statics  CMakeFiles/cmTC_b73a3.dir/src.cxx.obj -o cmTC_b73a3.exe -Wl,--out-implib,libcmTC_b73a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:57 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9u28d"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9u28d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9u28d'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f3b92
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_f3b92.dir/INCLUDE_INTTYPES_H.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e9u28d/INCLUDE_INTTYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_f3b92.dir/INCLUDE_INTTYPES_H.c.obj -o cmTC_f3b92.exe -Wl,--out-implib,libcmTC_f3b92.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:58 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9osynj"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9osynj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9osynj'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b7297
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b7297.dir/INCLUDE_STDINT_H.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9osynj/INCLUDE_STDINT_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_b7297.dir/INCLUDE_STDINT_H.c.obj -o cmTC_b7297.exe -Wl,--out-implib,libcmTC_b7297.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:59 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aj2wqf"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aj2wqf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aj2wqf'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b8e26
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b8e26.dir/INCLUDE_SYS_TYPES_H.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aj2wqf/INCLUDE_SYS_TYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_b8e26.dir/INCLUDE_SYS_TYPES_H.c.obj -o cmTC_b8e26.exe -Wl,--out-implib,libcmTC_b8e26.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-66bemc"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-66bemc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-66bemc'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_2c3e3
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2c3e3.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-66bemc/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_2c3e3.dir/CheckIncludeFile.c.obj -o cmTC_2c3e3.exe -Wl,--out-implib,libcmTC_2c3e3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g4d9vx"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g4d9vx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g4d9vx'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_cbbc3
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_cbbc3.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g4d9vx/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_cbbc3.dir/CheckIncludeFile.c.obj -o cmTC_cbbc3.exe -Wl,--out-implib,libcmTC_cbbc3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vn73pa"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vn73pa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vn73pa'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_96b28
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_96b28.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vn73pa/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_96b28.dir/CheckIncludeFile.c.obj -o cmTC_96b28.exe -Wl,--out-implib,libcmTC_96b28.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int16_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9vjhcm"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9vjhcm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9vjhcm'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_99a7d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_99a7d.dir/INT16_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9vjhcm/INT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_99a7d.dir/INT16_SIZE.c.obj -o cmTC_99a7d.exe -Wl,--out-implib,libcmTC_99a7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:4 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jcvbfq"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jcvbfq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jcvbfq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_4592f
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_4592f.dir/UINT16_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jcvbfq/UINT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_4592f.dir/UINT16_SIZE.c.obj -o cmTC_4592f.exe -Wl,--out-implib,libcmTC_4592f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:5 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int16_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_95049
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_95049.dir/U_INT16_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot/U_INT16_SIZE.c
+        FAILED: CMakeFiles/cmTC_95049.dir/U_INT16_SIZE.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_95049.dir/U_INT16_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot/U_INT16_SIZE.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot/U_INT16_SIZE.c:27:22: error: 'u_int16_t' undeclared here (not in a function); did you mean 'uint16_t'?
+           27 | #define SIZE (sizeof(u_int16_t))
+              |                      ^~~~~~~~~
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8b8sot/U_INT16_SIZE.c:29:12: note: in expansion of macro 'SIZE'
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:6 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e7e6sh"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e7e6sh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e7e6sh'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b9b55
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b9b55.dir/INT32_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e7e6sh/INT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_b9b55.dir/INT32_SIZE.c.obj -o cmTC_b9b55.exe -Wl,--out-implib,libcmTC_b9b55.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:7 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-710goq"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-710goq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-710goq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_99cfd
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_99cfd.dir/UINT32_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-710goq/UINT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_99cfd.dir/UINT32_SIZE.c.obj -o cmTC_99cfd.exe -Wl,--out-implib,libcmTC_99cfd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:8 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int32_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_d3af8
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d3af8.dir/U_INT32_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe/U_INT32_SIZE.c
+        FAILED: CMakeFiles/cmTC_d3af8.dir/U_INT32_SIZE.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d3af8.dir/U_INT32_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe/U_INT32_SIZE.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe/U_INT32_SIZE.c:27:22: error: 'u_int32_t' undeclared here (not in a function); did you mean 'uint32_t'?
+           27 | #define SIZE (sizeof(u_int32_t))
+              |                      ^~~~~~~~~
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utsvqe/U_INT32_SIZE.c:29:12: note: in expansion of macro 'SIZE'
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:9 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8mb7d2"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8mb7d2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT64_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8mb7d2'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_0a9f0
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_0a9f0.dir/INT64_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8mb7d2/INT64_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_0a9f0.dir/INT64_SIZE.c.obj -o cmTC_0a9f0.exe -Wl,--out-implib,libcmTC_0a9f0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:10 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-og2e5p"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-og2e5p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SHORT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-og2e5p'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_33ad5
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_33ad5.dir/SHORT_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-og2e5p/SHORT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_33ad5.dir/SHORT_SIZE.c.obj -o cmTC_33ad5.exe -Wl,--out-implib,libcmTC_33ad5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:11 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5jj2wd"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5jj2wd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5jj2wd'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_09155
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_09155.dir/INT_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5jj2wd/INT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_09155.dir/INT_SIZE.c.obj -o cmTC_09155.exe -Wl,--out-implib,libcmTC_09155.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:12 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjk3yj"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjk3yj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjk3yj'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_b852f
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b852f.dir/LONG_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjk3yj/LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_b852f.dir/LONG_SIZE.c.obj -o cmTC_b852f.exe -Wl,--out-implib,libcmTC_b852f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "cmake-build-debug/_deps/ogg-src/cmake/CheckSizes.cmake:13 (check_type_size)"
+      - "cmake-build-debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0q2rbh"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0q2rbh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0q2rbh'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_61b23
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_61b23.dir/LONG_LONG_SIZE.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0q2rbh/LONG_LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_61b23.dir/LONG_LONG_SIZE.c.obj -o cmTC_61b23.exe -Wl,--out-implib,libcmTC_61b23.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cvdbap"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cvdbap"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cvdbap'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_127d5
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_MBSTATE  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_127d5.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cvdbap/src.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cvdbap/src.c:4:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+            4 |     int main() { return 0; }
+              |         ^~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_127d5.dir/src.c.obj -o cmTC_127d5.exe -Wl,--out-implib,libcmTC_127d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/cmake/UseSystemExtensions.cmake:16 (check_c_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2je2oh"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2je2oh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2je2oh'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_8d639
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DDODEFINE_EXTENSIONS  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_8d639.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2je2oh/src.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2je2oh/src.c:36:9: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+           36 |     int main() { return 0; }
+              |         ^~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_8d639.dir/src.c.obj -o cmTC_8d639.exe -Wl,--out-implib,libcmTC_8d639.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_89f4e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_89f4e.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_89f4e.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_89f4e.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn/CheckIncludeFile.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bo5xnn/CheckIncludeFile.c:1:10: fatal error: byteswap.h: No such file or directory
+            1 | #include <byteswap.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lokrie"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lokrie"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lokrie'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e4a72
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_e4a72.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lokrie/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_e4a72.dir/CheckIncludeFile.c.obj -o cmTC_e4a72.exe -Wl,--out-implib,libcmTC_e4a72.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:115 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_NEONINTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_05976
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_05976.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_05976.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_05976.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy/CheckIncludeFile.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8frriy/CheckIncludeFile.c:1:10: fatal error: arm_neon.h: No such file or directory
+            1 | #include <arm_neon.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:124 (check_include_file)"
+    checks:
+      - "Looking for x86intrin.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m4k6l5"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m4k6l5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m4k6l5'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_55e9d
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_55e9d.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m4k6l5/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_55e9d.dir/CheckIncludeFile.c.obj -o cmTC_55e9d.exe -Wl,--out-implib,libcmTC_55e9d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k1pqt1"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k1pqt1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k1pqt1'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_97d9e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -fdiagnostics-color=always -o CMakeFiles/cmTC_97d9e.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k1pqt1/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko  CMakeFiles/cmTC_97d9e.dir/CheckFunctionExists.c.obj -o cmTC_97d9e.exe -Wl,--out-implib,libcmTC_97d9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9z0owv"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9z0owv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9z0owv'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_a7b96
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_BSWAP16  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_a7b96.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9z0owv/src.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9z0owv/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+            1 | int main() { return __builtin_bswap16 (0) ; }
+              |     ^~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_a7b96.dir/src.c.obj -o cmTC_a7b96.exe -Wl,--out-implib,libcmTC_a7b96.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:130 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9w5gt6"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9w5gt6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9w5gt6'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_ab26b
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_BSWAP32  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_ab26b.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9w5gt6/src.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9w5gt6/src.c:1:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+            1 | int main() { return __builtin_bswap32 (0) ; }
+              |     ^~~~
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_ab26b.dir/src.c.obj -o cmTC_ab26b.exe -Wl,--out-implib,libcmTC_ab26b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:131 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LANGINFO_CODESET"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LANGINFO_CODESET"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9906f
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_9906f.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx/src.c
+        FAILED: CMakeFiles/cmTC_9906f.dir/src.c.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_9906f.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx/src.c
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a7p7wx/src.c:2:14: fatal error: langinfo.h: No such file or directory
+            2 |     #include <langinfo.h>
+              |              ^~~~~~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:142 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WERROR_FLAG"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lutnyi"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lutnyi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WERROR_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lutnyi'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_7293a
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_WERROR_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_7293a.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lutnyi/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_7293a.dir/src.c.obj -o cmTC_7293a.exe -Wl,--out-implib,libcmTC_7293a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:143 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ghcd1u"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ghcd1u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_DECL_AFTER_STMT_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ghcd1u'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_08c16
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_DECL_AFTER_STMT_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always   -Wdeclaration-after-statement -o CMakeFiles/cmTC_08c16.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ghcd1u/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_08c16.dir/src.c.obj -o cmTC_08c16.exe -Wl,--out-implib,libcmTC_08c16.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:144 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wva4pq"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wva4pq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wva4pq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_86037
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_STACKREALIGN_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always   -mstackrealign -o CMakeFiles/cmTC_86037.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wva4pq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_86037.dir/src.c.obj -o cmTC_86037.exe -Wl,--out-implib,libcmTC_86037.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/flac-src/CMakeLists.txt:145 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WEFFCXX_FLAG"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iebryw"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iebryw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WEFFCXX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iebryw'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_16d9f
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DHAVE_WEFFCXX_FLAG  -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef   -std=gnu++20 -fdiagnostics-color=always   -Weffc++ -o CMakeFiles/cmTC_16d9f.dir/src.cxx.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iebryw/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef  CMakeFiles/cmTC_16d9f.dir/src.cxx.obj -o cmTC_16d9f.exe -Wl,--out-implib,libcmTC_16d9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ye4ip"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ye4ip"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ye4ip'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_9eb7c
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_9eb7c.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9ye4ip/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_9eb7c.dir/CheckIncludeFile.c.obj -o cmTC_9eb7c.exe -Wl,--out-implib,libcmTC_9eb7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:4 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p3xchz"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p3xchz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p3xchz'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_54ec7
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_54ec7.dir/CheckIncludeFile.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p3xchz/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_54ec7.dir/CheckIncludeFile.c.obj -o cmTC_54ec7.exe -Wl,--out-implib,libcmTC_54ec7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:7 (check_function_exists)"
+    checks:
+      - "Looking for lround"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LROUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_153fa
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -fdiagnostics-color=always -o CMakeFiles/cmTC_153fa.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'lround'; expected 'long int(double)' [-Wbuiltin-declaration-mismatch]
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pwox9k/CheckFunctionExists.c:1:1: note: 'lround' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround  CMakeFiles/cmTC_153fa.dir/CheckFunctionExists.c.obj -o cmTC_153fa.exe -Wl,--out-implib,libcmTC_153fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake-build-debug/_deps/flac-src/cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:13 (check_cpu_arch_x64)"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_X86_64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_70c5e
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always -o CMakeFiles/cmTC_70c5e.dir/CheckCPUArch.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_70c5e.dir/CheckCPUArch.c.obj -o cmTC_70c5e.exe -Wl,--out-implib,libcmTC_70c5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:101 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_ASSOC_MATH"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-saej7h"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-saej7h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ASSOC_MATH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-saej7h'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_4f602
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DHAVE_ASSOC_MATH  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -fdiagnostics-color=always   -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math -o CMakeFiles/cmTC_4f602.dir/src.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-saej7h/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  CMakeFiles/cmTC_4f602.dir/src.c.obj -o cmTC_4f602.exe -Wl,--out-implib,libcmTC_4f602.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "cmake-build-debug/_deps/vorbis-src/CMakeLists.txt:62 (check_library_exists)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3"
+      binary: "C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/s24b_/CLionProjects/3dRenderer/extern/SFML/cmake/Modules/;C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/_deps/vorbis-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.2/bin/ninja/win/x64/ninja.exe" -v cmTC_10ff7
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=floor -fdiagnostics-color=always -o CMakeFiles/cmTC_10ff7.dir/CheckFunctionExists.c.obj -c C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'floor'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        C:/Users/s24b_/CLionProjects/3dRenderer/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6q20e3/CheckFunctionExists.c:1:1: note: 'floor' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -DCHECK_FUNCTION_EXISTS=floor  CMakeFiles/cmTC_10ff7.dir/CheckFunctionExists.c.obj -o cmTC_10ff7.exe -Wl,--out-implib,libcmTC_10ff7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
